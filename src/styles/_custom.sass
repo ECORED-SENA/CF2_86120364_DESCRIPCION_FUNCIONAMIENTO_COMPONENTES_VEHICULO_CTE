@@ -1,27 +1,48 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 4%
+    right: 60%
   &-2
+    width: 120px
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 30%
+    right: 0%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 60%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
   
 .banner-principal .tarjeta
   background-position: left 50% !important
 
+.banner-principal .tarjeta
+  @media screen and ( max-width: $bp-max-lg )
+    background-image: url(../assets/curso/portada/fondo-banner-principal1.png) !important
+  @media screen and ( max-width: $bp-max-sm )
+    background-image: url(../assets/curso/portada/fondo-banner-principal2.png) !important
+    background-position: center bottom !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.png") !important
+
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 300px !important
+  padding-bottom: 0px !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
@@ -31,4 +52,108 @@
 
 figcaption
   font-weight: normal
- 
+
+.tarjeta.tarjeta--azul1
+  background-color: #DDD3C2
+.tarjeta.tarjeta--azul1.acordion__activo
+  background-color: #F9EEAB
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+
+.tarjeta.tarjeta--azul2
+  background-color: #FFFFFF
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+.slyder-a__bullets__item
+  background-color: #BCC0F5
+.slyder-a__bullets__item--active
+  background-color: #2D3BF3
+
+.bg
+  &-c1
+    background-image: url(../assets/curso/intro/img1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+    margin-bottom: -48px
+    @media screen and ( max-width: $bp-max-sm )
+      margin-bottom: -24px
+  &-c2
+    background-color: #F9EEAB
+  &-c3
+    background-image: url(../assets/curso/tema1/img1.png)
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+    margin-inline: -3.2rem !important
+  &-c4
+    background-color: #E8EAFD
+    border-radius: 15px
+    height: 100%
+  &-c5
+    background-color: #FFFFFF
+    border-radius: 15px
+  &-c6
+    background-color: #FFFFFF
+    border-radius: 15px
+    border: 3px solid #BDD9FD
+  &-c7
+    background-image: url(../assets/curso/tema1/img6.svg)
+    background-repeat: repeat-x
+    background-position: center
+    @media screen and ( max-width: $bp-max-sm )
+      background-repeat: repeat
+  &-c8
+    background-image: url(../assets/curso/tema1/img3.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    margin-inline: -3.2rem !important
+  &-c9
+    background-color: #F9EEAB
+    border-radius: 15px
+  &-c10
+    background-color: #E8EAFD
+  &-c11
+    background-color: #DDD3C2
+    border-radius: 15px
+  &-c12
+    background-color: #FFFFFF
+    border-radius: 15px
+    border: 3px solid #DDD3C2
+  &-c13
+    background-image: url(../assets/curso/tema2/img1.png)
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: top
+    margin-inline: -3.2rem !important
+  &-c14
+    background-image: url(../assets/curso/tema2/img4.png)
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+    margin-inline: -3.2rem !important
+  &-c15
+    background-color: #D4D7FD
+    border-radius: 15px
+  &-c16
+    background-color: #F2EEE7
+    border-radius: 15px
+    height: 100%
+    transition: all 0.3s ease-in-out
+  &-c16:hover
+    background-color: #D4D7FD
+  &-c17
+    background-image: url(../assets/curso/tema2/img13.png)
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: top
+    margin-inline: -3.2rem !important
+  &-c18
+    background-image: url(../assets/curso/tema2/img16.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+    margin-bottom: -48px
+    @media screen and ( max-width: $bp-max-sm )
+      margin-bottom: -24px
