@@ -73,19 +73,18 @@
                 .col
                   h3.mb-0 Formas de sujeción de las crucetas en el cardán
           p.mb-5(data-aos="fade-right") Esta junta universal se encuentra exactamente centrada en el eje del tubo y está asegurada en los costados mediante seguros de varios tipos, los cuales se revisarán más adelante, de tal manera que, al girar y soportar los desplazamientos, mantiene un centramiento exacto.
-          .row.justify-content-center.mb-5
-            .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
+          .row.justify-content-center.mb-4
+            .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
               .titulo-sexto.color-acento-contenido.mb-3
                 p.mb-0 #[b Figura 4.] Estructura y componentes del soporte central del eje de transmisión
               figure
                 img(src='@/assets/curso/tema2/img3.svg', alt='Diagrama de un soporte central de rodamiento en un eje de transmisión.', style="width: 590px").m-auto
-            .col-lg-6(data-aos="fade-left")
-              .row.h-100.align-items-center.bg-c15
-                .col-12
-                  .p-4
-                    figure
-                      img(src='@/assets/curso/tema2/img5.png', alt='', style="width: 140px")
-                    p.mb-0 Dependiendo del diseño del vehículo, su longitud y el ángulo de desviación que debe permitir el eje de propulsión, las formas de los propulsores pueden ser variadas.
+          .row.align-items-center.mb-2(data-aos="fade-down")
+            .col-md-auto
+              figure
+                img(src='@/assets/curso/tema2/img5.png', alt='', style="width: 100px").m-auto
+            .col
+              p.mb-3 Dependiendo del diseño del vehículo, su longitud y el ángulo de desviación que debe permitir el eje de propulsión, las formas de los propulsores pueden ser variadas.
           .row.justify-content-center.mb-5
             .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
               .row.h-100.align-items-center.bg-c9
