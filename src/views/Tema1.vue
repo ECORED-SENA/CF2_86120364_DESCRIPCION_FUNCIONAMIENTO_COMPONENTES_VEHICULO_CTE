@@ -36,7 +36,7 @@
                       figcaption
                         p.mb-0 #[b Nota. LOS TEQUES ALL TERRAIN. (2022).]
           p.mb-5(data-aos="fade-right") A continuación, se describe cómo se transfiere esta fuerza desde la caja de cambios o la caja de transferencia hasta los sistemas diferenciales delantero y posterior, considerando distintos tipos de propulsión:
-          .row.justify-content-center.mb-5
+          .row.justify-content-center
             .col-md-5.col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
               .p-3.bg-c4
                 .row.align-items-center
@@ -61,6 +61,8 @@
                       img(src='@/assets/curso/tema1/img4.svg', alt='', style="width: 100px").m-auto
                   .col
                     p.mb-0 #[b Propulsión en las cuatro ruedas]
+    Separador
+    #t_1_1
     .row.mb-4.ms-0
       .col-auto.bg-c7(data-aos="fade-left")
         .row.align-items-center
@@ -68,7 +70,7 @@
             figure
               img(src='@/assets/curso/tema1/img5.svg', alt='', style='width: 40px')
           .col
-            h3.mb-0 Función de los ejes de propulsión
+            h3.mb-0 1.1. Función de los ejes de propulsión
     p.mb-4(data-aos="fade-right") Los ejes de propulsión tienen la función de transmitir la fuerza del motor desde la caja de cambios hasta los diferenciales o, en algunos casos, desde la caja de transferencia hacia los diferenciales delantero, posterior o ambos. Existen dos sistemas principales de propulsión:
     .row.align-items-center.mb-4
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
@@ -83,7 +85,7 @@
             .col-12
               p.mb-0 El movimiento sale del diferencial, alojado generalmente en la caja de cambios, y se dirige directamente a las ruedas motrices. Se usa en vehículos con motor y caja de cambios transversal.
     p.mb-5(data-aos="fade-down") La configuración de los ejes de propulsión es clave en la ingeniería automotriz, ya que influye en el rendimiento y en la optimización del espacio del vehículo.
-    .row.bg-c8.mb-5
+    .row.bg-c8
       .col-12
         .p-5
           .tarjeta.tarjeta--azul2(data-aos="fade-down")
@@ -94,6 +96,8 @@
                     p #[b Configuración de ejes]
                     p.mb-0 En el primer sistema, los ejes de propulsión están articulados y pueden dividirse en una, dos o varias partes según la longitud del vehículo y el diseño del sistema de suspensión. Además de transmitir la fuerza, deben permitir el movimiento de la suspensión mientras impulsan los diferenciales.
                   .col-lg-5
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      p.mb-0 #[b Figura 2.] Configuración de ejes
                     figure
                       img(src='@/assets/curso/tema1/img7.svg', alt='Diagrama del sistema de transmisión trasera con motor longitudinal, caja de cambios, eje de transmisión y diferencial trasero.z', style="width: 490px").m-auto
                 .row.justify-content-center.align-items-center.my-lg-4
@@ -101,8 +105,12 @@
                     p #[b Función adicional]
                     p.mb-0 En el segundo sistema, utilizado en vehículos con motores y cajas de cambios transversales, los ejes de propulsión salen directamente del diferencial hacia las ruedas motrices. Este diseño permite la instalación del motor tanto en la parte delantera como en la posterior del vehículo. Sin embargo, la tendencia actual en los diseños modernos es ubicar el motor, el embrague, la caja de cambios, el diferencial y los ejes de propulsión en la parte delantera, lo que optimiza el espacio y evita el uso de sistemas de propulsión largos.
                   .col-lg-5
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      p.mb-0 #[b Figura 3.] Función adicional
                     figure
                       img(src='@/assets/curso/tema1/img8.svg', alt='Esquema de transmisión de un motor delantero con tracción delantera y junta homocinética.', style="width: 490px").m-auto
+    Separador
+    #t_1_2
     .row.mb-4.ms-0
       .col-auto.bg-c7(data-aos="fade-left")
         .row.align-items-center
@@ -110,7 +118,7 @@
             figure
               img(src='@/assets/curso/tema1/img5.svg', alt='', style='width: 40px')
           .col
-            h3.mb-0 Eje de propulsión posterior o cardán
+            h3.mb-0 1.2. Eje de propulsión posterior o cardán
     .row.align-items-center.mb-4
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p El eje propulsor o #[b cardán] está compuesto por un tubo con dos juntas de acople en sus extremos. Una junta se conecta al eje de salida de la caja de cambios o caja de transferencia, mientras que la otra se acopla con la junta del cono del sistema diferencial.
@@ -137,7 +145,7 @@
     .row.bg-c1
       .col-12
         .p-5
-          .row.mb-5(data-aos="fade-down")
+          .row(data-aos="fade-down")
             .col-lg-auto.pe-lg-0.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/tema1/img5.png', alt='', style="width: 430px").m-auto
@@ -146,6 +154,8 @@
                 .col-12
                   .p-3
                     p.mb-0 El tubo es hueco para reducir peso. En la sección del eje de salida de la caja se encuentra un acople estriado que le permite expandirse y comprimirse, ajustándose a la variación de longitud del eje cuando actúa la suspensión.
+          Separador
+          #t_1_3
           .row.mb-4.ms-0
             .col-auto.bg-c7(data-aos="fade-left")
               .row.align-items-center
@@ -153,7 +163,7 @@
                   figure
                     img(src='@/assets/curso/tema1/img5.svg', alt='', style='width: 40px')
                 .col
-                  h3.mb-0 Partes del eje
+                  h3.mb-0 1.3. Partes del eje
           p.mb-4(data-aos="fade-right") El número de secciones del eje varía según la distancia entre la caja de cambios y el diferencial, el ángulo de instalación y el recorrido de la suspensión. En vehículos con tracción delantera (motor longitudinal o transversal) o en aquellos donde el diferencial está integrado en la caja de cambios, los ejes de propulsión se denominan semiejes.
           .row.justify-content-center
             .col-lg-10
@@ -161,7 +171,7 @@
                 .row.align-items-center
                   .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
                     .titulo-sexto.color-acento-contenido.mb-3
-                      p.mb-0 #[b Figura 2.] Despiece y componentes del sistema de transmisión con cardán
+                      p.mb-0 #[b Figura 4.] Despiece y componentes del sistema de transmisión con cardán
                     figure
                       img.mb-2(src='@/assets/curso/tema1/img9.svg', alt='Despiece de un cardán con sus componentes, incluyendo crucetas, retenes y abrazaderas.', style="width: 550px").m-auto
                   .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")

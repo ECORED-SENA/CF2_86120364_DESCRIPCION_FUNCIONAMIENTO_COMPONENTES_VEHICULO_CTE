@@ -45,14 +45,14 @@
                       img(src='@/assets/curso/tema2/img3.png', alt='', style="width: 430px").m-auto
                   .col-lg-6
                     .titulo-sexto.color-acento-contenido.mb-3
-                      p.mb-0 #[b Figura 3.] Cruceta de transmisión o unión universal
+                      p.mb-0 #[b Figura 5.] Cruceta de transmisión o unión universal
                     figure
                       img(src='@/assets/curso/tema2/img1.svg', alt='Imagen de una cruceta o unión universal utilizada en transmisiones de vehículos.', style="width: 470px").m-auto
     p.mb-5(data-aos="fade-down") Algunos vehículos incorporan articulaciones dobles de crucetas, juntas flexibles de goma o articulaciones de cazoleta con bolas. Estas últimas se usan principalmente en ejes delanteros, pero también pueden aplicarse en ejes de propulsión posteriores.
     .row.bg-c14
       .col-12
         .px-5
-          .row.justify-content-center.mb-5
+          .row.justify-content-center
             .col-lg-10(data-aos="fade-left")
               .row
                 .col-lg-auto.pe-lg-0.mb-4.mb-lg-0
@@ -64,6 +64,8 @@
                       .p-3
                         p #[b Mantenimiento y lubricación]
                         p.mb-0 Los componentes del cardán están sometidos a grandes esfuerzos, por lo que requieren lubricación constante. Para ello, incluyen sistemas de engrase con una espiga que permite distribuir la grasa en los cuatro lados de la cruceta, asegurando un desplazamiento suave y prolongando su vida útil.
+          Separador
+          #t_2_1
           .row.mb-4.ms-0
             .col-auto.bg-c7(data-aos="fade-left")
               .row.align-items-center
@@ -71,12 +73,12 @@
                   figure
                     img(src='@/assets/curso/tema1/img5.svg', alt='', style='width: 40px')
                 .col
-                  h3.mb-0 Formas de sujeción de las crucetas en el cardán
+                  h3.mb-0 2.1. Formas de sujeción de las crucetas en el cardán
           p.mb-5(data-aos="fade-right") Esta junta universal se encuentra exactamente centrada en el eje del tubo y está asegurada en los costados mediante seguros de varios tipos, los cuales se revisarán más adelante, de tal manera que, al girar y soportar los desplazamientos, mantiene un centramiento exacto.
           .row.justify-content-center.mb-4
             .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b Figura 4.] Estructura y componentes del soporte central del eje de transmisión
+                p.mb-0 #[b Figura 6.] Estructura y componentes del soporte central del eje de transmisión
               figure
                 img(src='@/assets/curso/tema2/img3.svg', alt='Diagrama de un soporte central de rodamiento en un eje de transmisión.', style="width: 590px").m-auto
           .row.align-items-center.mb-2(data-aos="fade-down")
@@ -98,7 +100,7 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b Figura 5.] Despiece de una unión universal con cruceta y bridas
+                p.mb-0 #[b Figura 7.] Despiece de una unión universal con cruceta y bridas
               figure
                 img(src='@/assets/curso/tema2/img7.png', alt='Esquema del ensamblaje de una cruceta con bridas, dados y seguros.', style="width: 490px").m-auto
             .col-lg-3(data-aos="fade-left")
@@ -111,7 +113,7 @@
           img(src='@/assets/curso/tema2/img9.png', alt='', style="width: 400px").m-auto
       .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b Figura 6.] Métodos de fijación de la cruceta en la transmisión
+          p.mb-0 #[b Figura 8.] Métodos de fijación de la cruceta en la transmisión
         figure
           img(src='@/assets/curso/tema2/img4.svg', alt='Métodos de fijación de un dado en un sistema de transmisión.', style="width: 490px").m-auto
     .row.align-items-center.mb-4
@@ -132,7 +134,9 @@
       .col-lg-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img10.png', alt='', style="width: 300px").m-auto
-    p.mb-5(data-aos="fade-down") Si una cruceta no está correctamente centrada, el cardán generará vibraciones y desbalanceos debido a su giro fuera del eje, funcionando como una manivela en lugar de un eje estable.
+    p.mb-0(data-aos="fade-down") Si una cruceta no está correctamente centrada, el cardán generará vibraciones y desbalanceos debido a su giro fuera del eje, funcionando como una manivela en lugar de un eje estable.
+    Separador
+    #t_2_2
     .row.mb-4.ms-0
       .col-auto.bg-c7(data-aos="fade-left")
         .row.align-items-center
@@ -140,15 +144,15 @@
             figure
               img(src='@/assets/curso/tema1/img5.svg', alt='', style='width: 40px')
           .col
-            h3.mb-0 Centrado de las crucetas y comprobación del cardán
+            h3.mb-0 2.2. Centrado de las crucetas y comprobación del cardán
     p.mb-4(data-aos="fade-down") Cuando se realizan mantenimientos, engrases o reemplazos de crucetas en un eje propulsor, es fundamental verificar el centrado del cardán. Para ello, se deben seguir estos pasos:
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b Figura 7.] Verificación del alineamiento del eje cardánico
+          p.mb-0 #[b Figura 9.] Verificación del alineamiento del eje cardánico
         figure
           img(src='@/assets/curso/tema2/img11.png', alt='', style="width: 890px").m-auto
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-10.col-md-5.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c16
           figure
@@ -173,6 +177,8 @@
             img(src='@/assets/curso/tema2/img8.svg', alt='', style="width: 100px").m-auto
           p.text-center #[b Prueba de excentricidad]
           p.text-center.mb-0 Se mide el giro centrado del cardán utilizando un reloj palpador en la sección delantera, media y posterior. Si el tubo del cardán está torcido, se debe reemplazar el eje completo.
+    Separador
+    #t_2_3
     .row.mb-4.ms-0
       .col-auto.bg-c7(data-aos="fade-left")
         .row.align-items-center
@@ -180,7 +186,7 @@
             figure
               img(src='@/assets/curso/tema1/img5.svg', alt='', style='width: 40px')
           .col
-            h3.mb-0 Junta flexible de goma
+            h3.mb-0 2.3. Junta flexible de goma
     p.mb-5(data-aos="fade-left") Algunos fabricantes utilizan juntas flexibles de goma en los ejes de propulsión, reemplazando las crucetas en ciertos casos. Estas juntas se emplean principalmente en los acoples entre secciones del cardán, siempre que el ángulo de desviación sea pequeño.
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-down")
@@ -202,13 +208,13 @@
                       p.mb-0 #[b Elemento de centrado:] evita que los tramos unidos con la junta de goma se desplacen fuera del centro, especialmente bajo esfuerzos elevados o a altas velocidades.
             .col-lg-7
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b Figura 8.] Componentes y ensamblaje del eje cardánico con brida flexible
+                p.mb-0 #[b Figura 10.] Componentes y ensamblaje del eje cardánico con brida flexible
               figure
                 img.mb-2(src='@/assets/curso/tema2/img12.png', alt='Ensamble de un eje cardánico con brida flexible.', style="width: 550px").m-auto
     .row.bg-c17.mb-4
       .col-12
         .px-5
-          .row.justify-content-center.mb-5
+          .row.justify-content-center
             .col-lg-10(data-aos="fade-down")
               .p-3.bg-c11
                 .row.align-items-center
@@ -217,6 +223,8 @@
                       img(src='@/assets/curso/tema2/img9.svg', alt='', style="width: 100px").m-auto
                   .col-md
                     p.mb-0 Este sistema de juntas flexibles es ideal para reducir vibraciones y mejorar la estabilidad en la transmisión de potencia, aunque su capacidad de trabajo en ángulos pronunciados es menor en comparación con las crucetas tradicionales.
+          Separador
+          #t_2_4
           .row.mb-4.ms-0
             .col-auto.bg-c7(data-aos="fade-left")
               .row.align-items-center
@@ -224,12 +232,12 @@
                   figure
                     img(src='@/assets/curso/tema1/img5.svg', alt='', style='width: 40px')
                 .col
-                  h3.mb-0 Unidad viscosa
+                  h3.mb-0 2.4. Unidad viscosa
           p.mb-5(data-aos="fade-right") En vehículos con tracción en las cuatro ruedas, como los todoterreno, la caja de transferencia es la encargada de enviar la fuerza de propulsión tanto al diferencial posterior como al diferencial delantero a través de ejes cardán.
           .row.justify-content-center
             .col-lg-6(data-aos="fade-down")
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b Figura 9.] Sistema de soporte y transmisión con unidad viscosa
+                p.mb-0 #[b Figura 11.] Sistema de soporte y transmisión con unidad viscosa
               figure
                 img.mb-2(src='@/assets/curso/tema2/img14.png', alt='Despiece de una unidad viscosa con su eje estriado y bases de rodamiento.', style="width: 590px").m-auto
     .row.align-items-center
@@ -251,15 +259,17 @@
       .col-12
         .p-5
           p.mb-5(data-aos="fade-down") La unidad viscosa, instalada generalmente en el cardán posterior, está conformada por varios discos unidos por un elemento viscoso que regula la transmisión de la fuerza. Cuando el diferencial posterior experimenta mayor esfuerzo, la unidad viscosa suaviza la tracción, mejorando la estabilidad del vehículo.
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center
             .col-lg-3(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/tema2/img17.png', alt='', style="width: 300px").m-auto
             .col-lg-5(data-aos="fade-left")
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b Figura 10.] Mecanismo interno de un acoplamiento viscoso
+                p.mb-0 #[b Figura 12.] Mecanismo interno de un acoplamiento viscoso
               figure
                 img.mb-2(src='@/assets/curso/tema2/img18.png', alt='Despiece de un sistema amortiguador de torsión con discos y rodamientos.', style="width: 590px").m-auto
+          Separador
+          #t_2_5
           .row.mb-4.ms-0
             .col-auto.bg-c7(data-aos="fade-left")
               .row.align-items-center
@@ -267,7 +277,7 @@
                   figure
                     img(src='@/assets/curso/tema1/img5.svg', alt='', style='width: 40px')
                 .col
-                  h3.mb-0 Sistema homocinético
+                  h3.mb-0 2.5. Sistema homocinético
           p.mb-5(data-aos="fade-down") Este sistema se emplea junto con un #[b sistema estriado], encargado de compensar los cambios de longitud del cardán cuando la suspensión actúa y varía la distancia entre la caja de cambios o la caja de transferencia y los diferenciales delantero o posterior.
           .row.justify-content-center.mb-5
             .col-10.col-md-5.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
@@ -296,7 +306,7 @@
                     img(src='@/assets/curso/tema2/img19.png', alt='', style="width: 420px").m-auto
                 .col-lg-6(data-aos="fade-left")
                   .titulo-sexto.color-acento-contenido.mb-3
-                    p.mb-0 #[b Figura 11.] Estructura del eje de transmisión con junta universal y sistema homocinético
+                    p.mb-0 #[b Figura 13.] Estructura del eje de transmisión con junta universal y sistema homocinético
                   figure
                     img.mb-2(src='@/assets/curso/tema2/img20.png', alt='Imagen de un eje cardánico con sistema homocinético. ', style="width: 590px").m-auto
           p.mb-0(data-aos="fade-right") A diferencia de las #[b juntas universales], el sistema homocinético proporciona #[b mayor estabilidad], especialmente cuando los ejes trabajan en ángulos pronunciados. Sin embargo, su alto costo de fabricación limita su uso a vehículos de mayor gama.

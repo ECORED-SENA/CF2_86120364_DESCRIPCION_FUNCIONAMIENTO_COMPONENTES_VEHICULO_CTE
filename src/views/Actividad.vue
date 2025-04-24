@@ -22,6 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> identificar  los sistemas de propulsión y transmisión de fuerza en los vehículos, asemejando los componentes clave, sus funciones y la importancia de su correcto funcionamiento en el desempeño automotriz.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!..',
+      titulo_reprobado: 'VUELVA A INTENTARLO..',
       preguntas: [
         {
           id: 1,
