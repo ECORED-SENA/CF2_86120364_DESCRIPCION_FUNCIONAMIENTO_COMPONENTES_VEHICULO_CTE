@@ -33,8 +33,8 @@
                       p.mb-0 #[b Figura 1.] Sistema de transmisión en un vehículo 4x4
                     figure
                       img.mb-2(src='@/assets/curso/tema1/img1.svg', alt='Esquema de un sistema de transmisión con motor longitudinal y caja de cambios conectada a diferenciales delantero y trasero.', style="width: 550px").m-auto
-                      figcaption
-                        p.mb-0 #[b Nota. LOS TEQUES ALL TERRAIN. (2022).]
+                      figcaption.mt-2
+                        p.mb-0 #[b Nota.] LOS TEQUES ALL TERRAIN. (2022).
           p.mb-5(data-aos="fade-right") A continuación, se describe cómo se transfiere esta fuerza desde la caja de cambios o la caja de transferencia hasta los sistemas diferenciales delantero y posterior, considerando distintos tipos de propulsión:
           .row.justify-content-center
             .col-md-5.col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
@@ -100,6 +100,8 @@
                       p.mb-0 #[b Figura 2.] Configuración de ejes
                     figure
                       img(src='@/assets/curso/tema1/img7.svg', alt='Diagrama del sistema de transmisión trasera con motor longitudinal, caja de cambios, eje de transmisión y diferencial trasero.z', style="width: 490px").m-auto
+                    figcaption.mt-2
+                      p.mb-0 #[b Nota.] Configuración de ejes. (s.f.). [Imagen]
                 .row.justify-content-center.align-items-center.my-lg-4
                   .col-lg-5.mb-3.mb-lg-0
                     p #[b Función adicional]
@@ -109,6 +111,8 @@
                       p.mb-0 #[b Figura 3.] Función adicional
                     figure
                       img(src='@/assets/curso/tema1/img8.svg', alt='Esquema de transmisión de un motor delantero con tracción delantera y junta homocinética.', style="width: 490px").m-auto
+                    figcaption.mt-2
+                      p.mb-0 #[b Nota.] Función adicional. (s.f.). [Imagen]
     Separador
     #t_1_2
     .row.mb-4.ms-0
@@ -174,6 +178,8 @@
                       p.mb-0 #[b Figura 4.] Despiece y componentes del sistema de transmisión con cardán
                     figure
                       img.mb-2(src='@/assets/curso/tema1/img9.svg', alt='Despiece de un cardán con sus componentes, incluyendo crucetas, retenes y abrazaderas.', style="width: 550px").m-auto
+                    figcaption
+                      p.mb-0 #[b Nota.] Despiece y componentes del sistema de transmisión con cardán. (s.f.). [Imagen]
                   .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
                     .p-4.bg-c11
                       .row.mb-3
@@ -198,6 +204,14 @@ export default {
   data: () => ({
     mostrarIndicadorTarjetaAudio: true,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

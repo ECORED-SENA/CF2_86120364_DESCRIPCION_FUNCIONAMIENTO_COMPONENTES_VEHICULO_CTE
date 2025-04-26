@@ -48,6 +48,8 @@
                       p.mb-0 #[b Figura 5.] Cruceta de transmisión o unión universal
                     figure
                       img(src='@/assets/curso/tema2/img1.svg', alt='Imagen de una cruceta o unión universal utilizada en transmisiones de vehículos.', style="width: 470px").m-auto
+                    figcaption.mt-2
+                      p.mb-0 #[b Nota.] Cruceta de transmisión o unión universal. (s.f.). [Imagen]
     p.mb-5(data-aos="fade-down") Algunos vehículos incorporan articulaciones dobles de crucetas, juntas flexibles de goma o articulaciones de cazoleta con bolas. Estas últimas se usan principalmente en ejes delanteros, pero también pueden aplicarse en ejes de propulsión posteriores.
     .row.bg-c14
       .col-12
@@ -80,7 +82,9 @@
               .titulo-sexto.color-acento-contenido.mb-3
                 p.mb-0 #[b Figura 6.] Estructura y componentes del soporte central del eje de transmisión
               figure
-                img(src='@/assets/curso/tema2/img3.svg', alt='Diagrama de un soporte central de rodamiento en un eje de transmisión.', style="width: 590px").m-auto
+                img(src='@/assets/curso/tema2/img3.svg', alt='Diagrama de un soporte central de rodamiento en un eje de transmisión.', style="width: 690px").m-auto
+              figcaption.mt-2
+                p.mb-0 #[b Nota.] Estructura y componentes del soporte central del eje de transmisión. (s.f.). [Imagen]
           .row.align-items-center.mb-2(data-aos="fade-down")
             .col-md-auto
               figure
@@ -103,6 +107,8 @@
                 p.mb-0 #[b Figura 7.] Despiece de una unión universal con cruceta y bridas
               figure
                 img(src='@/assets/curso/tema2/img7.png', alt='Esquema del ensamblaje de una cruceta con bridas, dados y seguros.', style="width: 490px").m-auto
+              figcaption.mt-2
+                p.mb-0 #[b Nota.] Despiece de una unión universal con cruceta y bridas. (s.f.). [Imagen]
             .col-lg-3(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema2/img8.png', alt='', style="width: 300px").m-auto
@@ -116,6 +122,8 @@
           p.mb-0 #[b Figura 8.] Métodos de fijación de la cruceta en la transmisión
         figure
           img(src='@/assets/curso/tema2/img4.svg', alt='Métodos de fijación de un dado en un sistema de transmisión.', style="width: 490px").m-auto
+        figcaption.mt-2
+          p.mb-0 #[b Nota.] Metodos de fijación de la cruceta en la transmisión. (s.f.). [Imagen]
     .row.align-items-center.mb-4
       .col-lg-9.mb-4.mb-lg-0(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
@@ -152,6 +160,8 @@
           p.mb-0 #[b Figura 9.] Verificación del alineamiento del eje cardánico
         figure
           img(src='@/assets/curso/tema2/img11.png', alt='', style="width: 890px").m-auto
+        figcaption.mt-2
+          p.mb-0 #[b Nota.] Verificación del alineamiento del eje cardánico. (s.f.). [Imagen]
     .row.justify-content-center
       .col-10.col-md-5.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c16
@@ -211,6 +221,8 @@
                 p.mb-0 #[b Figura 10.] Componentes y ensamblaje del eje cardánico con brida flexible
               figure
                 img.mb-2(src='@/assets/curso/tema2/img12.png', alt='Ensamble de un eje cardánico con brida flexible.', style="width: 550px").m-auto
+              figcaption.mt-2
+                p.mb-0 #[b Nota.] Ensamble de un eje cardánico con brida flexible. (s.f.). [Imagen]
     .row.bg-c17.mb-4
       .col-12
         .px-5
@@ -240,6 +252,8 @@
                 p.mb-0 #[b Figura 11.] Sistema de soporte y transmisión con unidad viscosa
               figure
                 img.mb-2(src='@/assets/curso/tema2/img14.png', alt='Despiece de una unidad viscosa con su eje estriado y bases de rodamiento.', style="width: 590px").m-auto
+              figcaption.mt-2
+                p.mb-0 #[b Nota.] Sistema de soporte y transmisión con unidad viscosa. (s.f.). [Imagen]
     .row.align-items-center
       .col-lg-7.mb-3.mb-lg-0(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
@@ -268,6 +282,8 @@
                 p.mb-0 #[b Figura 12.] Mecanismo interno de un acoplamiento viscoso
               figure
                 img.mb-2(src='@/assets/curso/tema2/img18.png', alt='Despiece de un sistema amortiguador de torsión con discos y rodamientos.', style="width: 590px").m-auto
+              figcaption.mt-2
+                p.mb-0 #[b Nota.] Mecanismo interno de un acoplamiento viscoso. (s.f.). [Imagen]
           Separador
           #t_2_5
           .row.mb-4.ms-0
@@ -309,6 +325,8 @@
                     p.mb-0 #[b Figura 13.] Estructura del eje de transmisión con junta universal y sistema homocinético
                   figure
                     img.mb-2(src='@/assets/curso/tema2/img20.png', alt='Imagen de un eje cardánico con sistema homocinético. ', style="width: 590px").m-auto
+                  figcaption.mt-2
+                    p.mb-0 #[b Nota.] Estructura del eje de transmisión con junta universal y sistema homocinético. (s.f.). [Imagen]
           p.mb-0(data-aos="fade-right") A diferencia de las #[b juntas universales], el sistema homocinético proporciona #[b mayor estabilidad], especialmente cuando los ejes trabajan en ángulos pronunciados. Sin embargo, su alto costo de fabricación limita su uso a vehículos de mayor gama.
 
 </template>
